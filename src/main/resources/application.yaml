@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: homework-8
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: update
+  sql:
+    init:
+      mode: always
